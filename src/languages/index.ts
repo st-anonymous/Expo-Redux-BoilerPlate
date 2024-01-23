@@ -14,4 +14,8 @@ i18n.translations = {
   fr,
 };
 
-export default i18n;
+const translate = (key: string) => {
+  i18n.t(key);
+};
+
+export default translate;

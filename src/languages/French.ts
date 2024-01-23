@@ -1,4 +1,6 @@
-const fr = {
+import { languageKeyType } from './English';
+
+const fr: languageKeyType = {
   common: {
     welcome: 'Bonjour',
     name: {
