@@ -15,7 +15,7 @@ i18n.translations = {
 };
 
 const translate = (key: string) => {
-  i18n.t(key);
+  return i18n.t(key);
 };
 
 export default translate;
